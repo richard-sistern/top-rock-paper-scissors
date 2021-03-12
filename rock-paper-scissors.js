@@ -5,3 +5,19 @@ function computerPlay(moves) {
 }
 
 console.log(computerPlay(moves));
+
+const playerSelection = "Rock";
+const computerSelection = computerPlay(moves);
+
+function playRound(playerSelection, computerSelection) {
+    if (playerSelection == computerSelection) {
+        return "Draw"
+    }
+    else {
+        return "else"
+    }
+}
+
+result = playRound(playerSelection, computerSelection);
+console.log(result);
+//console.log(playRound(playerSelection, computerSelection));
