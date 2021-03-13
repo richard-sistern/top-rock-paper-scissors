@@ -9,6 +9,11 @@ console.log(allowedMoves);
 
 // 0 == Rock, 1 == Paper, 2 == Scissors
 // D == Draw, L == Loss, W == Win
+/* 
+    RR, RP, RS
+    PR, PP, PS
+    SR, SP, SS
+*/
 const winConditions = [
     ['D','L', 'W'],
     ['W','D', 'L'],
