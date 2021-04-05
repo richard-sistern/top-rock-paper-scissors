@@ -47,3 +47,8 @@ Moved to Font Awesome
     font-size: 4rem;
 }
 */
+
+/* Adjust Font Awesome color */
+i.far {
+    color: #FEF7F6;
+}
