@@ -10,11 +10,13 @@ body,html {
     font-family: sans-serif;
 }
 
+/* Removed
 h1 {
     text-align: center;
     font-size: 5rem;
     color: white;
 }
+*/
 
 .controls {
     display: flex;
