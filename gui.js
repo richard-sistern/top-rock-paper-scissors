@@ -5,6 +5,6 @@ const buttons = document.querySelectorAll('.button');
 buttons.forEach(button => button.addEventListener('click', clickButton));
 console.log(buttons);
 
-function clickButton(e) {
-    console.log(e);
+function clickButton() {
+    console.log(this.dataset.move);
 };
